@@ -6,5 +6,11 @@ pipeline {
                 echo "hello from Jenkinsfile"
             }
         }
+        stage('new branch') {
+            steps {
+                echo "hello from Jenkinsfile new branch"
+            }
+        }
     }
+        
 }
